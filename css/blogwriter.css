@@ -322,17 +322,30 @@ table th {
   }
 }
 
+/* FOOTER
+=============================================================================*/
+
+footer img {
+  background:#FFFFFF;
+  border:none;
+  border-width:0px 0px 0px 0px;
+  box-shadow:0px 0px 0px #FFFFFF; /* Standard blur at 5px. Increase for more depth */
+  -webkit-box-shadow:0px 0px 0px #FFFFFF;
+  -moz-box-shadow:0px 0px 0px #FFFFFF;
+  max-width: 100%;
+}
+
 /* IMAGES
 =============================================================================*/
 
 img {
-        background:#000; /*Change this to a background image or remove*/
-        border:solid #fff;
-        border-width:6px 6px 20px 6px;
-        box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
-        -webkit-box-shadow:1px 1px 5px #333;
-        -moz-box-shadow:1px 1px 5px #333;
-        /*height:auto; Set to height of your image or desired div*/
-        /*width:inherit; Set to width of your image or desired div*/
-        max-width: 95%;
+  background:#5A5A5A; /*Change this to a background image or remove*/
+  border:solid #fff;
+  border-width:6px 6px 20px 6px;
+  box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
+  -webkit-box-shadow:1px 1px 5px #333;
+  -moz-box-shadow:1px 1px 5px #333;
+  /*height:auto; Set to height of your image or desired div*/
+  /*width:inherit; Set to width of your image or desired div*/
+  max-width: 95%;
 }
